@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<script>
+    var str = prompt("Введите знак");
+    var a = parseFloat(prompt("a"));
+    var b = parseFloat(prompt("b"));
+    var c = parseFloat(prompt("c"));
+
+    if(a < c && b < c){
+        switch(sign){
+            case "+":
+                document.write((a + b)%c);
+                break;
+            case "*":
+                document.write((a * b)%c);
+                break;
+            case "**":
+                document.write((a * b)%c);
+            default:
+                alert("wrong");
+                break;
+        }
+    }
+    else{
+        document.write("error");
+    }
+</script>
+    <body>
+    </body>
+</html>
